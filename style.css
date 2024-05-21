@@ -1,0 +1,339 @@
+body {
+    margin: 0 auto;
+    background-color: #C9C9C9;
+}
+
+.nav {
+    margin:50px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+/* ---------------------------------------------------------PÁGINA PRINCIPAL -------------------------------------------*/
+
+/* Container--------------------------------*/
+
+.tudo {
+    margin:  0 auto;
+    max-width: 944px;
+    max-height: 700px;
+    border: solid 10px black;
+    margin-top: 50px;
+    display: flex;
+}
+
+/* Lado 1-------------------------------------------*/
+
+.article {
+    width: 350px;
+    height: 583px;
+    background-color: #ffbf00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 233px;
+    padding-bottom: 30px;
+}
+
+.imagem {
+    width: 233.06px;
+}
+
+/* Lado 2 --------------------------------*/
+
+.aside {
+    width: 650px;
+    height: 583px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.header{
+    margin-top: 20px;
+}
+
+.pesquisar{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #00000006;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #4b4b4b;
+}
+
+#searchInput{
+    padding: 3px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+
+.main{
+    width: 500px;
+    height: 350px;
+    margin-top: 0px;
+    border: 1px solid black;
+    margin-bottom:0px;
+    background-color: #adadadf0;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.botao_salvar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #44FF02;
+    width: 175px;
+    height: 40px;
+    border-radius: 16px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #44FF02;
+    width: 175px;
+    height: 60px;
+    margin-top: 0px;
+    border-radius: 30px;
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: .2s;
+}
+/* ---------------------------------------------------------PÁGINA 2 CADASTRO PESSOAL -------------------------------------------*/
+
+.aside2 {
+    width: 650px;
+    height: 583px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.titulo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+.botao_salvar{
+    color: black;
+    background-color: #44FF02;
+    width: 175px;
+    height: 40px;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 450px;
+    height: 50px;
+    background-color:rgba(177, 176, 175, 0.389);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 18px;
+}
+
+form input::placeholder{
+    color: #000000;
+}
+
+
+.botao_salvar:hover{
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.titulo3{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+
+/* ---------------------------------------------------------PÁGINA 3, CADASTRO DE ENDEREÇOS -------------------------------------------*/
+
+/* Lado 1-------------------------------------------*/
+
+
+.titulo {
+    width: 233px;
+    padding-bottom: 30px;
+}
+
+.imagem {
+    width: 233.06px;
+}
+
+/* Lado 2 do container ------------------------------------*/
+
+.aside3 {
+    width: 650px;
+    height: 583px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+
+}
+
+.titulo3{
+    margin: 10px;
+}
+
+.pesquisar{
+    margin-bottom: 50px;
+}
+
+
+.seletorEstado{
+    width: 68%;
+    margin-right: 140px;
+    background-color:#f9f9f9;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.formCep{
+    width: 50%;
+    margin-right: 219px;
+}
+
+.botao_salvar3{
+    color: black;
+    background-color: #44FF02;
+    width: 175px;
+    height: 40px;
+    border-radius: 16px;
+    margin-top: 0px;
+
+}
+
+.botao_salvar3:hover{
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+/* --------------------------------------------- PAGINA 4 DADOS DE TELEFONE ----------------------------------------------------------*/
+
+.aside4 {
+    width: 650px;
+    height: 583px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main4{
+    margin-bottom: 60px;
+}
+
+.titulo4{
+    margin: 50px;
+}
+
+
+
+.botao_salvar4{
+    color: black;
+    background-color: #44FF02;
+    width: 175px;
+    height: 40px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+
+}
+
+.botao_salvar4:hover{
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------PÁGINA 4, CADASTRO DE TELEFONES -------------------------------------------*/
